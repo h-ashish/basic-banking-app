@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('./home.css');
+@import url('./navbar.css');
+@import url('./footer.css');
+@import url('./createuser.css');
+@import url('./transfer.css');
+@import url('./users.css');
+@import url('./userprofile.css');
+* {
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+

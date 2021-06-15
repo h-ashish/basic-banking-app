@@ -1,0 +1,46 @@
+.userprofile-container{
+	text-align: center;
+	padding: 50px;
+	height: 100vh;
+	color: #1D2951;
+}
+.userprofile-container>h1{
+	margin-bottom: 30px;
+}
+.details-container{
+	background-image: linear-gradient( to bottom,#7F00FF, #E100FF);
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 50px;
+	border-radius: 20px;
+	font-size: 1.5em;
+}
+.details-container>i{
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+.details-container>h4 {
+	margin-bottom: 10px;
+}
+.details-container>p {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+.details-container{
+	width: 70%;
+}
+}
+@media screen and (max-width: 550px) {
+.details-container{
+	width: 100%;
+	font-size: 1em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.userprofile-container{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+}

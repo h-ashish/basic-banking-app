@@ -1,0 +1,57 @@
+.users-container{
+	text-align: center;
+	margin: 30px;
+	color: #1D2951;
+	height: 100%;
+}
+.users-container>h1{
+	padding-bottom: 30px;
+}
+table{
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	border-collapse: collapse;
+}
+tr, th, td{
+	padding: 10px;
+	border: 2px solid #1D2951;
+}
+thead{
+	background-image: linear-gradient( to bottom,#7F00FF, #E100FF);
+}
+tr:nth-child(even){
+	background-color: #e6e6fe;
+}
+.userprofile-link>button{
+	background-color: #1D2951;
+	color: white;
+	padding: 5px;
+	border-color:  #1D2951;
+	border-radius: 5px ;
+	cursor: pointer;
+}
+
+@media screen and (max-width:768px){
+.users-container>h1{
+	font-size: 2em;
+}
+
+}
+@media screen and (max-width:400px){
+.users-container{
+	margin: 15px;
+}
+table{
+	text-align: center;
+	font-size: 0.75em;
+}
+tr, th, td{
+	padding: 5px;
+	border: 2px solid #1D2951;
+}
+.userprofile-link>button{
+	padding: 3px;	
+	font-size: 0.75em;
+}
+}

@@ -1,0 +1,53 @@
+.createuser-container{
+	padding: 30px;
+	text-align: center;
+	color: #1D2951;
+}
+.createuser-container>h1{
+	padding-bottom: 30px;
+}
+.form-container{
+	background-image: linear-gradient( to bottom,#7F00FF, #E100FF);
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 50px;
+	border-radius: 20px;
+	font-size: 1.5em;
+}
+.form-container>input{
+	padding: 15px;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	outline: none;
+}
+.form-container>label{
+	width: 100%;
+}
+.form-container>button{
+	margin-top: 15px;
+	background: #1D2951;
+	color: white;
+	padding: 15px;
+	width: 100%;
+	font-weight: bold;
+	outline: none;
+}
+@media screen and (max-width: 768px) {
+.form-container{
+	width: 70%;
+}
+}
+@media screen and (max-width: 550px) {
+.form-container{
+	width: 100%;
+	font-size: 1em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.createuser-container{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+}
